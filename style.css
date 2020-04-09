@@ -10,7 +10,7 @@ p {
   color: Orange;
   text-align: center;
 }
-.button {
+button {
   position: absolute;
   margin: 30px;
 }
