@@ -1,10 +1,15 @@
 body {
-  background-color: RGB(300,200,100);
+  background-color: RGB(185,170,150);
 }
 h1 {
   color: SlateBlue;
   text-align: center;
+margin: 20px;
+border: 2px solid Tomato;
+padding: 10px;
 }
 p {
-  color: Violet;
+  text-align: center;
+  margin: 10px;
+
 }
