@@ -7,11 +7,11 @@ h1 {
   font-size:300;
 }
 p {
-  color: red;
-  text-align:centre;
+  color: Orange;
+  text-align:center;
 }
 button {
-  color: red;
-  text-align:centre;
-  margin: 50px;
+  color: Orange;
+  text-align:center;
+  margin: 30px;
 }
