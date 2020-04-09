@@ -11,5 +11,6 @@ p {
   text-align: center;
 }
 .button {
-  justify-content: center;
+  position: absolute;
+  margin: 30px;
 }
