@@ -13,5 +13,6 @@ p {
 div {
   position: absolute;
   margin: 30px;
-  text-align: center; 
+  text-align: center;
+  align: center;
 }
