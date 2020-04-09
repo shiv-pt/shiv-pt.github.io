@@ -10,8 +10,6 @@ p {
   color: Orange;
   text-align: center;
 }
-h2 {
-  color: Orange;
-  text-align: center;
-  margin: 30px;
+.button {
+  position: absolute
 }
