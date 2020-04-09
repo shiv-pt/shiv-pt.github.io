@@ -13,4 +13,5 @@ p {
 button {
   position: absolute;
   margin: 30px;
+  text-align: center; 
 }
