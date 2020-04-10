@@ -12,8 +12,11 @@ p {
 }
 div {
   position: absolute;
-  margin: 27px;
+margin: 30px;
   text-align: center;
   align: center;
-  left: 45%;
+left: 38%;
+border: 2px solid Black;
+padding: 100px;
+background-color: RGB(200,300,100);
 }
