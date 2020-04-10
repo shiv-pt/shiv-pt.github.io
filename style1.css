@@ -8,9 +8,11 @@ margin: 20px;
 border: 2px solid Tomato;
 padding: 10px;
   background-color: MediumSeaGreen;
+  font-size:280%
 }
 p {
   text-align: center;
   margin: 10px;
+  font-size:135%;
 
 }
