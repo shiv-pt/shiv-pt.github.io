@@ -5,10 +5,12 @@ h1 {
   color: MediumSeaGreen;
   text-align: center;
   font-size: 200%;
+  font-family:Verdana;
 }
 p {
   color: Orange;
   text-align: center;
+  font-size:140%;
 }
 div {
   position: absolute;
@@ -17,6 +19,7 @@ margin: 30px;
   align: center;
 left: 38%;
 border: 2px solid Black;
-padding: 100px;
+padding: 90px;
 background-color: RGB(200,300,100);
+
 }
