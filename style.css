@@ -24,6 +24,7 @@ padding: 90px;
 background-color: RGB(200,300,100);
 
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -48,5 +49,6 @@ li a:hover {
   background-color: #111;
 }
 #p01{
-margin: 7px;
+margin: 30px;
+text-align:left;
 }
