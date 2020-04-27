@@ -1,15 +1,18 @@
 body {
-  background-color: RGB(185,170,150);
+  background-color: RGB(140,0,0);
 }
 h1 {
-  color: SlateBlue;
+  color: Yellow;
   text-align: center;
 margin: 20px;
 border: 2px solid Tomato;
 padding: 10px;
+font-size:300%;
 }
 p {
   text-align: center;
   margin: 10px;
+font-size:135%;
+color: White;
 
 }
