@@ -1,0 +1,15 @@
+﻿h1 {
+  color: White;
+  text-align: center;
+margin: 50px;
+border: 2px solid Tomato;
+padding: 10px;
+font-size: 300%;
+}
+p {
+  text-align: center;
+  margin: 10px;
+color: White;
+font-size: 135%;
+
+}
