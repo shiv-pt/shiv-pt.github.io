@@ -1,17 +1,59 @@
-﻿
 ﻿h1 {
-
-  color: White;
+  color: white;
   text-align: center;
-margin: 50px;
-border: 2px solid Tomato;
-padding: 10px;
-font-size: 300%;
+  margin: 50px;
+  border: 2px solid Tomato;
+  padding: 10px;
+  font-size: 300%;
 }
 p {
   text-align: center;
   margin: 10px;
-color: White;
-font-size: 135%;
+  color: White;
+  font-size: 135%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#fixh {
+  color: MediumSeaGreen;
+  text-align: center;
+  font-size: 200%;
+  font-family:Verdana;
+  border: none;
+}
+#fixp {
+  color: Orange;
+  text-align: center;
+  font-size: 140%;
+
+ 
+}
+.ran {
+  color: Yellow;
+  text-align: center;
+  margin: 20px;
+  border: 2px solid Tomato;
+  padding: 10px;
+  font-size:300%;
 }
