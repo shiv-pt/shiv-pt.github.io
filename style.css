@@ -10,8 +10,9 @@ p {
   color: Orange;
   text-align: center;
 }
-button {
+div {
   position: absolute;
   margin: 30px;
-  text-align: center; 
+  text-align: center;
+  align: center;
 }
