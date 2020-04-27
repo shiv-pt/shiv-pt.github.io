@@ -1,18 +1,54 @@
 body {
-  background-color: powderblue;
+  background-color: RGB(140,0,0);
 }
 h1 {
   color: MediumSeaGreen;
   text-align: center;
   font-size: 200%;
+  font-family:Verdana;
 }
 p {
   color: Orange;
   text-align: center;
+  font-size:140%;
+ 
 }
 div {
   position: absolute;
-  margin: 30px;
+margin: 30px;
   text-align: center;
   align: center;
+left: 38%;
+border: 2px solid Black;
+padding: 90px;
+background-color: RGB(200,300,100);
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#p01{
+margin: 30px;
+text-align:left;
 }
