@@ -1,0 +1,107 @@
+.square {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: black;
+    background-image: url('Images/Hole.jpg');
+    background-size: cover;
+  }
+  
+  .grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 325px;
+    height: 325px;
+  }
+  
+  .mole {
+    background-image: url('Images/Mole.jpg');
+    background-size: cover;
+  }
+  p {
+    text-align: center;
+    color: white;
+    }
+    div {
+    align: center;
+    }
+    body {
+    background-color: RGB(140,0,0);
+    }
+    h1 {
+    color:white;
+    text-align:center;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a, .dropbtn {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: #111;
+    }
+    
+    li.dropdown {
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      right: 0;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    #fixh {
+      color: MediumSeaGreen;
+      text-align: center;
+      font-size: 200%;
+      font-family:Verdana;
+    }
+    address {
+    color: white;
+    }
+     h2 {
+    color: white;
+    }
+    
+    #fixp {
+      color: Orange;
+      text-align: center;
+      font-size: 140%;
+      margin: 10px;
+     
+    }
