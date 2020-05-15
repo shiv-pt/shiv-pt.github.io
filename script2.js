@@ -2,51 +2,51 @@
 const cardArray = [
 {
 name: 'car',
-img: 'car.jpg'
+img: 'Images/car.jpg'
 },
 {
 name: 'aeroplane',
-img: 'aeroplane.png'
+img: 'Images/aeroplane.png'
 },
 {
 name: 'ship',
-img: 'ship.png'
+img: 'Images/ship.png'
 },
 {
 name: 'scooter',
-img: 'scooter.jpg'
+img: 'Images/scooter.jpg'
 },
 {
 name: 'helicopter',
-img: 'helicopter.jpg'
+img: 'Images/helicopter.jpg'
 },
 {
 name: 'train',
-img: 'train.jpg'
+img: 'Images/train.jpg'
 },
 {
 name: 'car',
-img: 'car.jpg'
+img: 'Images/car.jpg'
 },
 {
 name: 'aeroplane',
-img: 'aeroplane.png'
+img: 'Images/aeroplane.png'
 },
 {
 name: 'ship',
-img: 'ship.png'
+img: 'Images/ship.png'
 },
 {
 name: 'scooter',
-img: 'scooter.jpg'
+img: 'Images/scooter.jpg'
 },
 {
 name: 'helicopter',
-img: 'helicopter.jpg'
+img: 'Images/helicopter.jpg'
 },
 {
 name: 'train',
-img: 'train.jpg'
+img: 'Images/train.jpg'
 }
 ]
 
@@ -60,7 +60,7 @@ var cardsWon=[]
 function createBoard() {
 for (let i=0; i<cardArray.length; i++) {
 var card = document.createElement('img')
-card.setAttribute('src','mosaic.jpg')
+card.setAttribute('src','Images/mosaic.jpg')
 card.setAttribute('data-id',i)
 card.addEventListener('click',flipCard)
 grid.appendChild(card)
@@ -75,14 +75,14 @@ const optionOneId = cardsChosenId[0]
 const optionTwoId = cardsChosenId[1]
 if (cardsChosen[0] === cardsChosen[1]) {
 alert('You found a match')
-cards[optionOneId].setAttribute('src','white.png')
-cards[optionTwoId].setAttribute('src','white.png')
+cards[optionOneId].setAttribute('src','Images/white.png')
+cards[optionTwoId].setAttribute('src','Images/white.png')
 cardsWon.push(cardsChosen)
 }
 else {
 
-cards[optionOneId].setAttribute('src','mosaic.jpg')
-cards[optionTwoId].setAttribute('src','mosaic.jpg')
+cards[optionOneId].setAttribute('src','Images/mosaic.jpg')
+cards[optionTwoId].setAttribute('src','Images/mosaic.jpg')
 alert('Sorry, try again')
 }
 cardsChosen = []
