@@ -16,6 +16,11 @@ font-size:135%;
 color: White;
 
 }
+div.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -38,11 +43,14 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
   background-color: #111;
+
 }
 
 li.dropdown {
   display: inline-block;
 }
+
+
 
 .dropdown-content {
   display: none;
