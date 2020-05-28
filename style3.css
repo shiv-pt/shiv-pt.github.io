@@ -9,7 +9,7 @@ text-align: center;
 color: white;
 }
 div {
-align: center;
+text-align: center;
 }
 body {
 background-color: RGB(140,0,0);
@@ -74,6 +74,8 @@ li.dropdown {
   text-align: center;
   font-size: 200%;
   font-family:Verdana;
+  text-shadow:1px 1px 4px yellowgreen ;
+
 }
 address {
 color: white;
