@@ -88,3 +88,9 @@ li.dropdown {
 #test {
 color: white;
 }
+body {
+  background-image: url('Images/Weird.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
