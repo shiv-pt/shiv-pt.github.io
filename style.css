@@ -1,5 +1,5 @@
 body {
-  background-color: RGB(140,0,0);
+  background-color: rgb(140,0,0);
 }
 h1 {
   color: MediumSeaGreen;
@@ -40,9 +40,12 @@ li a:hover, .dropdown:hover .dropbtn {
   background-color: #111;
 }
 
+
+
 li.dropdown {
   display: inline-block;
 }
+
 
 .dropdown-content {
   display: none;
@@ -70,4 +73,18 @@ li.dropdown {
 #p01{
 margin: 30px;
 text-align:left;
+}
+audio {
+  display: none;
+  background-color: rgb(140,0,0);
+  padding: 20px;
+}
+
+div.ado:hover audio {
+  display: block;
+}
+div.ado{
+  text-align: center;
+  font-size: 1.5em;
+  color:orange;
 }
