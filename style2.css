@@ -63,6 +63,11 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+div.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 #fixh {
   color: MediumSeaGreen;
   text-align: center;
