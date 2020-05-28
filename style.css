@@ -72,9 +72,9 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-#p01{
-margin: 30px;
-text-align:left;
+#p01 {
+  margin: 30px;
+  text-align:left;
 }
 audio {
   display: none;
@@ -85,7 +85,7 @@ audio {
 div.ado:hover audio {
   display: block;
 }
-div.ado{
+div.ado {
   text-align: center;
   font-size: 1.5em;
   color:orange;
